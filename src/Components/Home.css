@@ -9,7 +9,7 @@
     mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0.15));
 }
 
-.product__row{
+.home-row{
     display: flex;
     z-index: 1;
     margin: 0 5px;

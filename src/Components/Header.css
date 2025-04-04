@@ -11,7 +11,9 @@
 
 .header .logo {
   width: 120px;
+  margin-left: 15px;
   margin: 12px 10px 0 30px;
+  cursor: pointer;
 }
 .searchicon {
   padding: 5px;
@@ -46,10 +48,12 @@
     align-items: center;
     padding: 10px;
     cursor: pointer;
+    color: white;
     gap: 5px;
 }
 .headerNav {
   display: flex;
+  margin-right: 15px;
   justify-content: space-evenly;
   color: white;
 }
@@ -58,5 +62,5 @@
 }
 .headerOption .optionLineTwo {
 font-weight: 800;
-font-size: 15px;
+font-size: 18px;
 }

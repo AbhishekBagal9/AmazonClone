@@ -1,12 +1,16 @@
 import React from 'react'
 import "./Header.css"
 import SearchIcon from '@mui/icons-material/Search';
+import { Link } from 'react-router-dom'
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 const Header = () => {
   return (
     <div className='header'>
-            <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt=""  className='logo'/>
+      
+     <Link to="/">
+     <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt=""  className='logo'/>
+     </Link>
         <div className="searchBar">
             <input type="text" name="" className="searchfield" />
              <SearchIcon className='searchicon'/>
@@ -36,10 +40,13 @@ const Header = () => {
                 Prime
               </p>
             </div>
+            <Link to="/Checkout">
             <div className="headerBasket">
              <ShoppingBasketIcon/>
               <span>0</span>
             </div>
+            </Link>
+            
             
         </div>
            
